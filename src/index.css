@@ -1,0 +1,26 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: "Roboto", sans-serif;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+  background-color: #718096;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: "Roboto", sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
